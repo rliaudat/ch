@@ -1,0 +1,83 @@
+p {
+    color: red;
+}
+
+#opcion1, #opcion2 {
+  display: none;
+}
+
+
+body {
+    background-color: rgb(255, 237, 237)
+}
+
+header {
+    border-radius: 32px;
+    opacity: 0.8999999761581421;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    
+}
+
+
+#blog {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+#nosotros {
+    padding-right: 10px;
+}
+
+#servicios {
+    padding-right: 10px;
+}
+
+#logo {
+    padding-left: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+#tecnologia {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+    height: 300px;
+    
+}
+
+#cursos {
+    color: blue;
+    text-decoration: none;
+}
+
+.azul {
+    color: chartreuse;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+}
+
+header nav {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+  } 
