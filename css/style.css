@@ -61,6 +61,20 @@ ul {
     margin-right: 20px;
 }
 
+.btn-primary1 {
+    background-color: green;
+    color: aliceblue;
+}
+
+.btn-primary2 {
+    background-color: hotpink;
+    color: black;
+}
+
+.btn-primary3 {
+    background-color: chocolate;
+    color: blanchedalmond;
+}
 
 .index-imagen {
     text-align: center;
@@ -74,4 +88,9 @@ ul {
 .carousel-item img {
     width: 50%;
     height: 300px;
+}
+
+.row {
+    padding: 10px;
+    margin-top: 3px;
 }
