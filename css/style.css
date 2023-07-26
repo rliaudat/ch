@@ -3,90 +3,60 @@
 html {
     padding: 0px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header nav {
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    
+    margin-bottom: 3px;
 }
+
 
 body {
+    
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    font-family: sans-serif;
-    font-size: 18px;
-    color:beige;
-}
-
-header {
-    border-radius: 32px;
-    opacity: 0.8999999761581421;
+    color:beige;   
     
 }
 
-header nav ul {
-    list-style-type: none;
-    text-align: center;
-    
-}
-
-header nav ul li a {
-    text-decoration: none;
-    
-}
-
-
-#blog {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 80%;
-    height: 80%;
-}
-
-#nosotros {
-    padding-right: 10px;
-}
-
-#servicios {
-    padding-right: 10px;
-}
-
-#logo {
-    padding-left: 5px;
-    width: 60px;
-    height: 60px;
-}
-
-#tecnologia {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 90%;
-    height: 300px;
-    
-}
-
-#cursos {
-    color: white;
-    text-decoration: none;
-}
-
-.azul {
-    color: chartreuse;
-    text-decoration: none;
-}
 ul {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: center;
+    width: 90%;
+    justify-content: flex-end;
     padding: 5px;
 }
 
-header nav {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    border: none;
-  } 
+
+
+.index-main {
+    margin-top: 15px;
+    padding: 30px;   
+    
+}
+
+.index-main-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.index-main-titulo h1 {
+    font-size: 50px;
+}
+
+.index-main-parrafo {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+.index-imagen {
+    text-align: center;
+}
+
+.pie-de-pagina {
+    padding: 10px;
+    text-align: right;
+}
